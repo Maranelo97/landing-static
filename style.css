@@ -1,0 +1,195 @@
+html,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+
+body {
+  width: 100%;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.head {
+  font-family: "Poppins";
+  height: 100vh;
+  background: linear-gradient(90deg, #6d77fc, #4876e8);
+  background-size: 300% 300%;
+  animation: gradient 8s linear infinite;
+}
+
+.top-head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.saint-george {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+.main-h1 {
+  font-size: 1.7rem;
+  text-align: center;
+  font-weight: 600;
+  color: #f5f7fa;
+}
+
+.head p {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.column-imgs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(207, 217, 223, 0.2);
+  width: 80%;
+  border-radius: 2%;
+  backdrop-filter: blur(10px);
+}
+
+.svgs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.svgs2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.svgs3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.svgs4 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.box-text {
+  padding: 10px;
+}
+
+.box-text p {
+  font: 14px;
+  font-family: "Raleway";
+  padding: 6px;
+}
+
+.discount-svg {
+  max-width: 450px;
+  transition: 1s;
+}
+
+.discount-svg:hover {
+  transform: scale(1.1) rotate(-10deg);
+  opacity: 0.8;
+}
+
+.discount-svg2 {
+  max-width: 450px;
+  transition: 1s;
+}
+
+.discount-svg2:hover {
+  transform: scale(1.1) rotate(10deg);
+  opacity: 0.8;
+}
+
+.discount-svg4 {
+  max-width: 450px;
+  transition: 1s;
+}
+
+.discount-svg4:hover {
+  transform: scale(1) rotate(10deg);
+  opacity: 0.8;
+}
+
+.text-svg {
+  font-family: "Raleway";
+  font-size: 1.4rem;
+  padding: 6px;
+}
+
+.tile {
+  -webkit-transform: translateY(50px) rotate(-5deg) translateZ(0);
+  transform: translateY(50px) rotate(-5deg) translateZ(0);
+  -webkit-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 0;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+.bottom-right.inView {
+  opacity: 1;
+  -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
+  transform: translateY(0px) rotate(0deg) translateZ(0);
+}
+.inView {
+  opacity: 1;
+  -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
+  transform: translateY(0px) rotate(0deg) translateZ(0);
+}
+
+.footer-section {
+  background: silver;
+  position: relative;
+}
+
+.copyright-area {
+  background: silver;
+  padding: 8px;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 0.5em;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+}
